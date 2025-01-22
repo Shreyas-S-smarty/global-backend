@@ -63,10 +63,6 @@ app.get("/new",(req,res)=>
 {
     res.send("done bro")
 })
-app.post("/user",(req,res)=>{
- res.json({success:"true"})
-
-})
 
 
 app.listen(3000,()=>{
